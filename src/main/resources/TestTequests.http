@@ -1,0 +1,21 @@
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "Kate",
+  "phone": "+25521"
+}
+
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "Kyle",
+  "phone": "+95121"
+}
+
+###
+GET http://localhost:8080/api/users
+Content-Type: application/json
